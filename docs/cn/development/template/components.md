@@ -35,7 +35,7 @@ type Template interface {
 package components
 
 import (
-	"github.com/chenhg5/go-admin/template/types"
+	"github.com/compty001/go-admin/template/types"
 	"html/template"
 )
 

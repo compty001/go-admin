@@ -1,6 +1,6 @@
 package controller
 
-import "github.com/chenhg5/go-admin/modules/config"
+import "github.com/compty001/go-admin/modules/config"
 
 var Config config.Config
 

@@ -1,8 +1,8 @@
 package controller
 
 import (
-	"github.com/chenhg5/go-admin/modules/db"
-	"github.com/chenhg5/go-admin/modules/db/dialect"
+	"github.com/compty001/go-admin/modules/db"
+	"github.com/compty001/go-admin/modules/db/dialect"
 )
 
 func NewManager(dataList map[string][]string) {

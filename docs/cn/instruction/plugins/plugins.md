@@ -9,12 +9,12 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/chenhg5/go-admin/adapter/gin" // 必须引入，如若不引入，则需要自己定义
-	"github.com/chenhg5/go-admin/engine"
-	"github.com/chenhg5/go-admin/plugins/admin"
-	"github.com/chenhg5/go-admin/plugins/example"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/examples/datamodel"
+	_ "github.com/compty001/go-admin/adapter/gin" // 必须引入，如若不引入，则需要自己定义
+	"github.com/compty001/go-admin/engine"
+	"github.com/compty001/go-admin/plugins/admin"
+	"github.com/compty001/go-admin/plugins/example"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/examples/datamodel"
 )
 
 func main() {
@@ -33,6 +33,6 @@ func main() {
 }
 ```
 
-[返回目录](https://github.com/chenhg5/go-admin/blob/master/docs/cn/index.md)<br>
-[上一页：go-admin介绍](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/instruction.md)<br>
-[下一页：admin插件的使用](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/plugins/admin.md)
+[返回目录](https://github.com/compty001/go-admin/blob/master/docs/cn/index.md)<br>
+[上一页：go-admin介绍](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/instruction.md)<br>
+[下一页：admin插件的使用](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/plugins/admin.md)

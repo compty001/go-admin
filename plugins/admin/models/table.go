@@ -1,10 +1,10 @@
 package models
 
 import (
-	"github.com/chenhg5/go-admin/modules/db"
-	"github.com/chenhg5/go-admin/modules/db/dialect"
-	"github.com/chenhg5/go-admin/plugins/admin/modules"
-	"github.com/chenhg5/go-admin/template/types"
+	"github.com/compty001/go-admin/modules/db"
+	"github.com/compty001/go-admin/modules/db/dialect"
+	"github.com/compty001/go-admin/plugins/admin/modules"
+	"github.com/compty001/go-admin/template/types"
 	"html/template"
 	"strconv"
 	"strings"

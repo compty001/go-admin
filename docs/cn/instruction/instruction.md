@@ -4,7 +4,7 @@ go-admin通过各种适配器使得你在各个web framework中使用都十分�
 
 ## 例子
 
-先导入```$GOPATH/github.com/chenhg5/go-admin/examples/datamodel/admin.sql```到数据库中。
+先导入```$GOPATH/github.com/compty001/go-admin/examples/datamodel/admin.sql```到数据库中。
 
 下面看一个Gin框架的例子：
 
@@ -13,11 +13,11 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/chenhg5/go-admin/adapter/gin" // 必须引入，如若不引入，则需要自己定义
-	"github.com/chenhg5/go-admin/engine"
-	"github.com/chenhg5/go-admin/plugins/admin"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/examples/datamodel"
+	_ "github.com/compty001/go-admin/adapter/gin" // 必须引入，如若不引入，则需要自己定义
+	"github.com/compty001/go-admin/engine"
+	"github.com/compty001/go-admin/plugins/admin"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/examples/datamodel"
 )
 
 func main() {
@@ -50,7 +50,7 @@ func main() {
 		LANGUAGE: "cn", 
 	}
 
-    	// Generators： 详见 https://github.com/chenhg5/go-admin/blob/master/examples/datamodel/tables.go
+    	// Generators： 详见 https://github.com/compty001/go-admin/blob/master/examples/datamodel/tables.go
 	adminPlugin := admin.NewAdmin(datamodel.Generators)
 
         // 增加配置与插件，使用Use方法挂载到Web框架中
@@ -68,7 +68,7 @@ func main() {
 - 设置插件与配置
 - 挂载到Web框架中
 
-更多的例子可以看：[https://github.com/chenhg5/go-admin/tree/master/examples](https://github.com/chenhg5/go-admin/tree/master/examples)
+更多的例子可以看：[https://github.com/compty001/go-admin/tree/master/examples](https://github.com/compty001/go-admin/tree/master/examples)
 
 ## 配置项
 
@@ -131,5 +131,5 @@ type Config struct {
 
 ```
 
-[返回目录](https://github.com/chenhg5/go-admin/blob/master/docs/cn/index.md)<br>
-[下一页：插件的使用](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/plugins/plugins.md)
+[返回目录](https://github.com/compty001/go-admin/blob/master/docs/cn/index.md)<br>
+[下一页：插件的使用](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/plugins/plugins.md)

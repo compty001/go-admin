@@ -3,10 +3,10 @@ package controller
 import (
 	"encoding/json"
 
-	"github.com/chenhg5/go-admin/context"
-	"github.com/chenhg5/go-admin/modules/auth"
-	"github.com/chenhg5/go-admin/modules/db"
-	"github.com/chenhg5/go-admin/modules/db/dialect"
+	"github.com/compty001/go-admin/context"
+	"github.com/compty001/go-admin/modules/auth"
+	"github.com/compty001/go-admin/modules/db"
+	"github.com/compty001/go-admin/modules/db/dialect"
 )
 
 func RecordOperationLog(ctx *context.Context) {

@@ -47,7 +47,7 @@ var List = map[string]string{"admin_panel": `{{define "admin_panel"}}
     <div class="pull-right hidden-xs">
         <b>Version</b> {{.System.Version}}
     </div>
-    <strong>Copyright &copy; 2018- <a href="https://github.com/chenhg5/go-admin">GoAdmin</a>.</strong> All rights
+    <strong>Copyright &copy; 2018- <a href="https://github.com/compty001/go-admin">GoAdmin</a>.</strong> All rights
     reserved.
 </footer>
 {{end}}`, "head": `{{define "head"}}
@@ -2992,7 +2992,7 @@ Showing <b>{{.CurPageStartIndex}}</b> to <b>{{.CurPageEndIndex}}</b> of <b>{{.To
 <body>
 
 <div class="container">
-    <div class="copyrights">Collect from <a href="https://github.com/chenhg5/go-admin" title="GoAdmin">Go Admin</a>
+    <div class="copyrights">Collect from <a href="https://github.com/compty001/go-admin" title="GoAdmin">Go Admin</a>
     </div>
     <div class="row" style="margin-top: 80px;">
         <div class="col-md-4 col-md-offset-4">

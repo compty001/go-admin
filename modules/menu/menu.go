@@ -5,9 +5,9 @@
 package menu
 
 import (
-	"github.com/chenhg5/go-admin/modules/auth"
-	"github.com/chenhg5/go-admin/modules/db"
-	"github.com/chenhg5/go-admin/modules/language"
+	"github.com/compty001/go-admin/modules/auth"
+	"github.com/compty001/go-admin/modules/db"
+	"github.com/compty001/go-admin/modules/language"
 	"strconv"
 	"sync"
 	"sync/atomic"

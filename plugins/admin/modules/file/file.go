@@ -1,7 +1,7 @@
 package file
 
 import (
-	"github.com/chenhg5/go-admin/plugins/admin/modules"
+	"github.com/compty001/go-admin/plugins/admin/modules"
 	"io"
 	"mime/multipart"
 	"os"

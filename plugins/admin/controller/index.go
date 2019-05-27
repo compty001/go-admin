@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"github.com/chenhg5/go-admin/context"
-	"github.com/chenhg5/go-admin/modules/page"
-	template2 "github.com/chenhg5/go-admin/template"
-	"github.com/chenhg5/go-admin/template/types"
+	"github.com/compty001/go-admin/context"
+	"github.com/compty001/go-admin/modules/page"
+	template2 "github.com/compty001/go-admin/template"
+	"github.com/compty001/go-admin/template/types"
 	"html/template"
 )
 

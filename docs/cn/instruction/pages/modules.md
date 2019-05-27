@@ -23,9 +23,9 @@ type Panel struct {
 package datamodel
 
 import (
-	"github.com/chenhg5/go-admin/modules/config"
-	template2 "github.com/chenhg5/go-admin/template"
-	"github.com/chenhg5/go-admin/template/types"
+	"github.com/compty001/go-admin/modules/config"
+	template2 "github.com/compty001/go-admin/template"
+	"github.com/compty001/go-admin/template/types"
 	"html/template"
 )
 
@@ -79,6 +79,6 @@ type RowAttribute interface {
 ```
 
 
-[返回目录](https://github.com/chenhg5/go-admin/blob/master/docs/cn/index.md)<br>
-[上一页：自定义页面](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/pages/pages.md)<br>
-[下一页：介绍页面组件](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/pages/components.md)
+[返回目录](https://github.com/compty001/go-admin/blob/master/docs/cn/index.md)<br>
+[上一页：自定义页面](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/pages/pages.md)<br>
+[下一页：介绍页面组件](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/pages/components.md)

@@ -6,13 +6,13 @@
 package main
 
 import (
-	_ "github.com/chenhg5/go-admin/adapter/gin"
-	"github.com/chenhg5/go-admin/engine"
-	"github.com/chenhg5/go-admin/examples/datamodel"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/plugins/admin"
-	"github.com/chenhg5/go-admin/plugins/example"
-	"github.com/chenhg5/go-admin/template/types"
+	_ "github.com/compty001/go-admin/adapter/gin"
+	"github.com/compty001/go-admin/engine"
+	"github.com/compty001/go-admin/examples/datamodel"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/plugins/admin"
+	"github.com/compty001/go-admin/plugins/example"
+	"github.com/compty001/go-admin/template/types"
 	"github.com/gin-gonic/gin"
 )
 
@@ -53,9 +53,9 @@ func main() {
 package datamodel
 
 import (
-	"github.com/chenhg5/go-admin/modules/config"
-	template2 "github.com/chenhg5/go-admin/template"
-	"github.com/chenhg5/go-admin/template/types"
+	"github.com/compty001/go-admin/modules/config"
+	template2 "github.com/compty001/go-admin/template"
+	"github.com/compty001/go-admin/template/types"
 	"html/template"
 )
 
@@ -83,6 +83,6 @@ func GetContent() types.Panel {
 }
 ```
 
-[返回目录](https://github.com/chenhg5/go-admin/blob/master/docs/cn/index.md)<br>
-[上一页：admin插件的使用](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/plugins/admin.md)<br>
-[下一页：介绍页面模块](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/pages/modules.md)
+[返回目录](https://github.com/compty001/go-admin/blob/master/docs/cn/index.md)<br>
+[上一页：admin插件的使用](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/plugins/admin.md)<br>
+[下一页：介绍页面模块](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/pages/modules.md)

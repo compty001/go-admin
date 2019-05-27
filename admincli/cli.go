@@ -7,10 +7,10 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/modules/db"
-	_ "github.com/chenhg5/go-admin/modules/db/mysql"
-	_ "github.com/chenhg5/go-admin/modules/db/postgresql"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/modules/db"
+	_ "github.com/compty001/go-admin/modules/db/mysql"
+	_ "github.com/compty001/go-admin/modules/db/postgresql"
 	"io/ioutil"
 	"os"
 	"path"
@@ -159,8 +159,8 @@ func GenerateFile(table string, conn db.Connection, fieldField, typeField string
 	content := `package ` + packageName + `
 
 import (
-	"github.com/chenhg5/go-admin/template/types"
-	"github.com/chenhg5/go-admin/plugins/admin/models"
+	"github.com/compty001/go-admin/template/types"
+	"github.com/compty001/go-admin/plugins/admin/models"
 )
 
 func Get` + strings.Title(table) + `Table() (` + table + `Table models.Table) {

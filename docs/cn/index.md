@@ -1,8 +1,8 @@
 # go-admin文档
 
-- [如何使用，go-admin介绍](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/instruction.md)
-    - [如何使用插件](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/plugins/plugins.md)
-        - [admin插件的使用：配置生成数据管理平台](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/plugins/admin.md)
+- [如何使用，go-admin介绍](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/instruction.md)
+    - [如何使用插件](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/plugins/plugins.md)
+        - [admin插件的使用：配置生成数据管理平台](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/plugins/admin.md)
             - 快速开始
                 - 使用admincli生产配置文件
                 - 设置访问路由
@@ -20,12 +20,12 @@
                     - 多选
                     - icon下拉选择框
                 - Info
-    - [如何自定义页面](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/pages/pages.md)
-        - [介绍页面模块](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/pages/modules.md)
+    - [如何自定义页面](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/pages/pages.md)
+        - [介绍页面模块](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/pages/modules.md)
             - panel
             - 行
             - 列
-        - [介绍页面组件](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/pages/components.md)
+        - [介绍页面组件](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/pages/components.md)
             - InfoBox
             - Button
             - BarChart
@@ -40,8 +40,8 @@
             - Image
             - Form
             - Tabs                                
-    - [如何设置菜单](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/menus.md)
-    - [如何设置管理员，管理角色，管理权限](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/rcba.md)
+    - [如何设置菜单](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/menus.md)
+    - [如何设置管理员，管理角色，管理权限](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/rcba.md)
     
 - 参与开发
     - 开发一个插件
@@ -54,8 +54,8 @@
         - 适配器介绍
         - 实现Use方法
         - 实现Content方法
-    - [开发一个主题模板](https://github.com/chenhg5/go-admin/blob/master/docs/cn/development/template/template.md)
-        - [组件开发](https://github.com/chenhg5/go-admin/blob/master/docs/cn/development/template/components.md)
+    - [开发一个主题模板](https://github.com/compty001/go-admin/blob/master/docs/cn/development/template/template.md)
+        - [组件开发](https://github.com/compty001/go-admin/blob/master/docs/cn/development/template/components.md)
         - 表单组件开发
         - 静态资源的处理
         - 模板的使用

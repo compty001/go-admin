@@ -6,7 +6,7 @@ package db
 
 import (
 	"errors"
-	"github.com/chenhg5/go-admin/modules/db/dialect"
+	"github.com/compty001/go-admin/modules/db/dialect"
 	"strconv"
 	"strings"
 	"sync"

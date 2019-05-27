@@ -1,12 +1,12 @@
 package adminlte
 
 import (
-	"github.com/chenhg5/go-admin/modules/language"
-	"github.com/chenhg5/go-admin/modules/menu"
-	"github.com/chenhg5/go-admin/template/adminlte/resource"
-	"github.com/chenhg5/go-admin/template/adminlte/tmpl"
-	"github.com/chenhg5/go-admin/template/components"
-	"github.com/chenhg5/go-admin/template/types"
+	"github.com/compty001/go-admin/modules/language"
+	"github.com/compty001/go-admin/modules/menu"
+	"github.com/compty001/go-admin/template/adminlte/resource"
+	"github.com/compty001/go-admin/template/adminlte/tmpl"
+	"github.com/compty001/go-admin/template/components"
+	"github.com/compty001/go-admin/template/types"
 	"html/template"
 )
 

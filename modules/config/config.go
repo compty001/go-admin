@@ -5,7 +5,7 @@
 package config
 
 import (
-	"github.com/chenhg5/go-admin/modules/logger"
+	"github.com/compty001/go-admin/modules/logger"
 	"html/template"
 	"sync"
 )

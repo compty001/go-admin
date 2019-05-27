@@ -34,7 +34,7 @@ CREATE TABLE `users` (
 - 安装
 
 ```bash
-go install github.com/chenhg5/go-admin/admincli
+go install github.com/compty001/go-admin/admincli
 ```
 
 - 生成
@@ -61,7 +61,7 @@ admincli generate -h=127.0.0.1 -p=3306 -u=root -P=root -pa=main -n=goadmin -o=./
 ```go
 package datamodel
 
-import "github.com/chenhg5/go-admin/plugins/admin/models"
+import "github.com/compty001/go-admin/plugins/admin/models"
 
 // The key of Generators is the prefix of table info url.
 // The corresponding value is the Form and Table data.
@@ -81,11 +81,11 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	_ "github.com/chenhg5/go-admin/adapter/gin" // 必须引入，如若不引入，则需要自己定义
-	"github.com/chenhg5/go-admin/engine"
-	"github.com/chenhg5/go-admin/plugins/admin"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/examples/datamodel"
+	_ "github.com/compty001/go-admin/adapter/gin" // 必须引入，如若不引入，则需要自己定义
+	"github.com/compty001/go-admin/engine"
+	"github.com/compty001/go-admin/plugins/admin"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/examples/datamodel"
 )
 
 func main() {
@@ -115,8 +115,8 @@ func main() {
 package main
 
 import (
-	"github.com/chenhg5/go-admin/template/types"
-	"github.com/chenhg5/go-admin/plugins/admin/models"
+	"github.com/compty001/go-admin/template/types"
+	"github.com/compty001/go-admin/plugins/admin/models"
 )
 
 func GetUsersTable() (usersTable models.Table) {
@@ -218,7 +218,7 @@ type Form struct {
 
 ```
 
-import "github.com/chenhg5/go-admin/template/types/form"
+import "github.com/compty001/go-admin/template/types/form"
 
 ...
 FormType: form.File,
@@ -261,6 +261,6 @@ type FieldValueFun func(value RowModel) interface{}
 在表格中，可以自定义html返回。
 在表单中，对于非选择的表单类型，须返回string，对于单选、多选等选择表单类型，则返回[]string。
 
-[返回目录](https://github.com/chenhg5/go-admin/blob/master/docs/cn/index.md)<br>
-[上一页：插件的使用](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/plugins/plugins.md)<br>
-[下一页：自定义页面](https://github.com/chenhg5/go-admin/blob/master/docs/cn/instruction/pages/pages.md)
+[返回目录](https://github.com/compty001/go-admin/blob/master/docs/cn/index.md)<br>
+[上一页：插件的使用](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/plugins/plugins.md)<br>
+[下一页：自定义页面](https://github.com/compty001/go-admin/blob/master/docs/cn/instruction/pages/pages.md)

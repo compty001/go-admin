@@ -8,9 +8,9 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/modules/db/converter"
-	"github.com/chenhg5/go-admin/modules/db/performer"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/modules/db/converter"
+	"github.com/compty001/go-admin/modules/db/performer"
 	_ "github.com/go-sql-driver/mysql"
 	"sync"
 )

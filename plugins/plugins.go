@@ -5,7 +5,7 @@
 package plugins
 
 import (
-	"github.com/chenhg5/go-admin/context"
+	"github.com/compty001/go-admin/context"
 )
 
 // Plugin as one of the key components of goAdmin has three

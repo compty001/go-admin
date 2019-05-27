@@ -6,11 +6,11 @@ package db
 
 import (
 	"database/sql"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/modules/db/mssql"
-	"github.com/chenhg5/go-admin/modules/db/mysql"
-	"github.com/chenhg5/go-admin/modules/db/postgresql"
-	"github.com/chenhg5/go-admin/modules/db/sqlite"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/modules/db/mssql"
+	"github.com/compty001/go-admin/modules/db/mysql"
+	"github.com/compty001/go-admin/modules/db/postgresql"
+	"github.com/compty001/go-admin/modules/db/sqlite"
 )
 
 const (

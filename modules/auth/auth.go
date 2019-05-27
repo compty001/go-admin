@@ -5,11 +5,11 @@
 package auth
 
 import (
-	"github.com/chenhg5/go-admin/context"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/modules/db"
-	"github.com/chenhg5/go-admin/modules/db/dialect"
-	"github.com/chenhg5/go-admin/plugins/admin/modules"
+	"github.com/compty001/go-admin/context"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/modules/db"
+	"github.com/compty001/go-admin/modules/db/dialect"
+	"github.com/compty001/go-admin/plugins/admin/modules"
 	"golang.org/x/crypto/bcrypt"
 	"strconv"
 	"strings"

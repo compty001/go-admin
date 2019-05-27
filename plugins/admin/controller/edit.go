@@ -1,13 +1,13 @@
 package controller
 
 import (
-	"github.com/chenhg5/go-admin/context"
-	"github.com/chenhg5/go-admin/modules/auth"
-	"github.com/chenhg5/go-admin/modules/menu"
-	"github.com/chenhg5/go-admin/plugins/admin/models"
-	"github.com/chenhg5/go-admin/plugins/admin/modules/file"
-	"github.com/chenhg5/go-admin/template"
-	"github.com/chenhg5/go-admin/template/types"
+	"github.com/compty001/go-admin/context"
+	"github.com/compty001/go-admin/modules/auth"
+	"github.com/compty001/go-admin/modules/menu"
+	"github.com/compty001/go-admin/plugins/admin/models"
+	"github.com/compty001/go-admin/plugins/admin/modules/file"
+	"github.com/compty001/go-admin/template"
+	"github.com/compty001/go-admin/template/types"
 	"net/http"
 	"strings"
 )

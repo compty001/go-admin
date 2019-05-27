@@ -1,9 +1,9 @@
 package datamodel
 
 import (
-	"github.com/chenhg5/go-admin/plugins/admin/models"
-	"github.com/chenhg5/go-admin/template/types"
-	"github.com/chenhg5/go-admin/template/types/form"
+	"github.com/compty001/go-admin/plugins/admin/models"
+	"github.com/compty001/go-admin/template/types"
+	"github.com/compty001/go-admin/template/types/form"
 )
 
 func GetPostsTable() (postsTable models.Table) {

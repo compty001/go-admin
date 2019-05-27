@@ -7,8 +7,8 @@ package postgresql
 import (
 	"database/sql"
 	"fmt"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/modules/db/performer"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/modules/db/performer"
 	_ "github.com/lib/pq"
 	"net/url"
 	"strconv"

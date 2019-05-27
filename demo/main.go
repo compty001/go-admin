@@ -2,13 +2,13 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/chenhg5/go-admin/engine"
-	"github.com/chenhg5/go-admin/examples/datamodel"
-	"github.com/chenhg5/go-admin/modules/config"
-	"github.com/chenhg5/go-admin/plugins/admin"
-	"github.com/chenhg5/go-admin/plugins/example"
-	"github.com/chenhg5/go-admin/template/types"
-	_ "github.com/chenhg5/go-admin/adapter/gin"
+	"github.com/compty001/go-admin/engine"
+	"github.com/compty001/go-admin/examples/datamodel"
+	"github.com/compty001/go-admin/modules/config"
+	"github.com/compty001/go-admin/plugins/admin"
+	"github.com/compty001/go-admin/plugins/example"
+	"github.com/compty001/go-admin/template/types"
+	_ "github.com/compty001/go-admin/adapter/gin"
 )
 
 func main() {
