@@ -24,7 +24,7 @@ func main() {
 				HOST:         "127.0.0.1",
 				PORT:         "3306",
 				USER:         "root",
-				PWD:          "root",
+				PWD:          "1234",
 				NAME:         "godmin",
 				MAX_IDLE_CON: 50,
 				MAX_OPEN_CON: 150,
